@@ -5,50 +5,23 @@ body {
 }
 
 header {
-    background-color: #f8f8f8;
-    padding: 1em 0;
-    text-align: center;
-}
-
-nav {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1em;
-}
-
-nav ul {
-    list-style: none;
-    display: flex;
-}
-
-nav li {
-    margin: 0 1em;
-}
-
-nav a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.hero {
-    text-align: center;
-    padding: 2em;
-}
-
-.cta-button {
-    display: inline-block;
-    background-color: #007bff;
+    background-color: #333;
     color: #fff;
-    padding: 0.5em 1em;
-    text-decoration: none;
-    border-radius: 5px;
-    margin-top: 1em;
+    text-align: center;
+    padding: 1em 0;
 }
 
 .main-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: 2em;
+}
+
+.feature, .cta {
+    flex: 1;
+    text-align: center;
+    margin: 0 1em;
 }
 
 footer {
@@ -56,4 +29,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
