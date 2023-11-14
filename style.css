@@ -1,35 +1,37 @@
 body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
 }
 
 header {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem;
 }
 
-.main-content {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 2em;
+h1 {
+    margin-bottom: 1rem;
 }
 
-.feature, .cta {
-    flex: 1;
-    text-align: center;
-    margin: 0 1em;
+section {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
 }
 
 footer {
     background-color: #333;
-    color: #fff;
+    color: white;
     text-align: center;
-    padding: 1em 0;
-    position: fixed;
+    padding: 1rem;
+    position: absolute;
     bottom: 0;
     width: 100%;
 }
+
+button {
+    background-color: #333;
+    color: white;
