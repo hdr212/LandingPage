@@ -1,38 +1,90 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
 }
 
 header {
     background-color: #333;
-    color: white;
+    color: #fff;
+    padding: 1em 0;
     text-align: center;
-    padding: 1rem;
 }
 
-h1 {
-    margin-bottom: 1rem;
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-section {
-    margin-bottom: 2rem;
+.logo img {
+    width: 50px;
+    margin-right: 10px;
 }
 
-h2 {
-    margin-bottom: 1rem;
+.logo h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.players-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.player {
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.player:hover {
+    transform: scale(1.05);
+}
+
+.player img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.player h2 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.player p {
+    margin: 8px 0;
+    font-size: 0.9em;
 }
 
 footer {
     background-color: #333;
-    color: white;
+    color: #fff;
     text-align: center;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
+    padding: 1em 0;
 }
-
-button {
-    background-color: #333;
-    color: white;
+.fifa{
+    width: 5em;
+}
+.psg {
+    width: 5em;
+}
+.morocco {
+    width: 1em;
+}
+.nassr {
+    width: 5em;
+}
+.senegal {
+    width: 1em;
 }
