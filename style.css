@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: rgb(0, 0, 0);
     color: #fff;
     padding: 1em 0;
     text-align: center;
@@ -43,7 +43,7 @@ main {
     margin: 20px;
     border: 1px solid #ddd;
     background-color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.1);
     text-align: center;
     transition: transform 0.3s ease-in-out;
 }
@@ -73,9 +73,7 @@ footer {
     text-align: center;
     padding: 1em 0;
 }
-.fifa{
-    width: 5em;
-}
+
 .psg {
     width: 5em;
 }
@@ -87,4 +85,43 @@ footer {
 }
 .senegal {
     width: 1em;
+}
+.fifa {
+    width: 5em;
+}
+.dz {
+    width: 1em;
+}
+.ahli {
+    width: 5em;
+}
+.egipto {
+    width: 1em;
+}
+.liverpool {
+    width: 5em;
+}
+.Senegal {
+    width: 1em;
+}
+.ahlii {
+    width: 5em;
+}
+.maroc {
+    width: 1em;
+}
+.hilal {
+    width: 5em;
+}
+.ghana {
+    width: 1em;
+}
+.arsenal {
+    width: 5em;
+}
+.Marroc {
+    width: 1em;
+}
+.chelsea {
+    width: 5em;
 }
